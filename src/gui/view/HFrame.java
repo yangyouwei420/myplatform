@@ -174,11 +174,11 @@ public class HFrame extends JFrame {
                     }
                     item = menu.add(new ActionSet(functions[i],null));
                     item.setActionCommand(functions[i]);
-                    if (mnemonic != null)
+                    /*if (mnemonic != null)
                     {
                         item.setMnemonic(mnemonic[i]);
                         item.setAccelerator( KeyStroke.getKeyStroke(mnemonic[i],java.awt.Event.CTRL_MASK,false));
-                    }
+                    }*/
                 }
                 return menu;
             }//end of buildMenu()
